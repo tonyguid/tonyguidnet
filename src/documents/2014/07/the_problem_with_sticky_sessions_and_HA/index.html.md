@@ -48,3 +48,8 @@ What happens when there's severe weather, such as a tornado warning across 6 cou
 I often get asked "Does Azure offer anything like AWS Elastic IP?" My next question is always to ask about their scalability plans. If they indicate they plan to scale big, then I point out that they're asking the wrong question. The right question is "How do I get all of this state out of my app so I can scale?" 
 
 Sometimes they choose the fastest path to migration by implementing some form of sticky routing, but at least they're now aware of the limitations.
+
+Often, partners or customers confuse Azure Availability Sets with guaranteed uptime. They certainly provide that - which you throw out the window as soon as you route to a specific server. 
+
+For more information on high availability, [Mike McKeown](http://michaelmckeown.com/) and [Hanu Kommalapati](http://blogs.msdn.com/b/hanuk/) wrote a [nice paper](http://msdn.microsoft.com/en-us/library/dn251004.aspx) on high availability and disaster recovery on Azure. Check it out.
+
