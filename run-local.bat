@@ -1,2 +1,2 @@
 start "" "http://localhost:9778"
-docpad run
+node_modules\.bin\docpad run
